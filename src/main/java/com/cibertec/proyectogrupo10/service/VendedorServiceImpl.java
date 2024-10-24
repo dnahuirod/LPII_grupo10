@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 @AllArgsConstructor
-public class VendedorServiceImpl implements VendedorService {
+public class    VendedorServiceImpl implements VendedorService {
     private final VendedorRepository vendedorRepository;
 
     @Override
